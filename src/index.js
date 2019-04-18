@@ -20,9 +20,13 @@ const store = createStore(
 
 store.dispatch(getAllProducts())
 
+const pageStyle = {
+  height: '200',
+  backgroundColor:'blue'
+}
 render(
   <Provider store={store}>
-    <App />
+    <App style={pageStyle} />
   </Provider>,
   document.getElementById('root')
 )

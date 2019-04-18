@@ -6,8 +6,13 @@ import { getVisibleProducts } from '../reducers/products'
 import ProductItem from '../components/ProductItem'
 import ProductsList from '../components/ProductsList'
 
+const pageStyle = {
+  height: '200',
+  backgroundColor:'blue'
+}
+
 const ProductsContainer = ({ products, addToCart }) => (
-  <ProductsList title="Products">
+  <ProductsList title="Products" style={pageStyle}>
     {products.map(product =>
       <ProductItem
         key={product.id}
