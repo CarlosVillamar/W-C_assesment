@@ -12,7 +12,7 @@ import ProductsList from '../components/ProductsList'
 // }
 
 const ProductsContainer = ({ products, addToCart }) => (
-  <ProductsList title="Products">
+  <ProductsList title="Products" style={{position:'relative', textAlign:'center'}}>
     {products.map(product =>
       <ProductItem
         key={product.id}
