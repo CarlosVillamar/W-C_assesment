@@ -20,7 +20,6 @@ You can reference the two classes above to get a better idea of what I am reffer
 # Issues implementing the cart
 Currently this verison does not implement a modal showcasing the CartContainer container, I attempted to create a placeHolder modal to test how it would work for our test case. However I could not implement it in time for submission but I would love some feedback on how to do this properly, you can find this attempt here: src/containers/cartModal.js. One brighspot however, I made sure the cart button can shift between two images when our cursor hovers over it, using eventhandlers. 
 
-# If I could do this assesment over, I would create a seperate button components and use states
-This sample project use simple HTML button tags to create buttons, Had I chosen to create them as a React component instead, I would have been able to set states to handle disable and hover states more effectively, instead of using mouse cursor events to add behaviors. 
-
+# If I could do this assesment over, I would create a seperate button components and use states, and make use of the media querys 
+This sample project use simple HTML button tags to create buttons, Had I chosen to create them as a React component instead, I would have been able to set states to handle disable and hover states more effectively, instead of using mouse cursor events to add behaviors. Also had I made use of meida queries, I probably had been able to avoid a current regression case when trhe page is rendered below a width of 600px. The page is not broken by anymeans at that size but it could look a little better or more consistant. 
 
