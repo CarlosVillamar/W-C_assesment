@@ -1,10 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import BG from './../assets/BG.png'
 
 const tempTitle = {
-  color: 'white',
-  // position: "absolute",
+  color: 'Black',
   left: "6.41%",
   right: "6.25%",
   top: "4.14%",
@@ -13,10 +11,12 @@ const tempTitle = {
 const childStyle = {
   border: 'red',
   position: "absolute",
-  left: "6.25%",
-  right: "6.25%",
+  left: "7.25%",
+  right: "7.25%",
   top:'30%',
-  bottom: "40%"
+  bottom: "40%",
+  width:'80%',
+  height:'auto'
 
 }
 const ProductsList = ({ title, children }) => (
